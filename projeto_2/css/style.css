@@ -8,7 +8,7 @@ body{
     background-color:white;
 }
 .div_olhinhos h1{
-    /* background-color:rgb(51, 129, 132); */
+    margin-top: 15px;
     font-size: 50px;
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
@@ -25,10 +25,10 @@ body{
 }
 .menu{
     background-color: rgb(71, 112, 71);
-    margin-top: 20px;
-    padding: 30px;
+    padding: 0px;
     cursor: pointer ;
     list-style: none;
+    display: flex;
     
 
 }
@@ -48,4 +48,43 @@ body{
     text-decoration: none;
     color: white;
 }
-#
+.logo img{
+    padding: auto;
+    margin-right: 50%;
+
+}
+/*Sobre os paragrafos e texto da pagina inicial (home)*/
+.tex_pg_inicial h2{
+    font-size: 25px;
+    font-style:oblique ;
+    font-weight: bolder;
+}
+.tex_pg_inicial p{
+    font-size: 18px;
+}
+.tex_pg_inicial{
+    margin-left: 30px;
+    text-align: center;
+}
+.tex_pg_inicial h3{
+    font-style:oblique ;
+    font-weight: bolder;
+    font-size: 23px;
+    text-decoration: none;
+}
+.tex_pg_inicial h3 a{
+    text-decoration: none;
+    color: rgb(71, 112, 71);
+}
+
+#abx_img{
+    margin-top: 30px;
+
+}
+/*Rodape das paginas*/
+.footer{
+    background-color:rgb(71, 112, 71); 
+    margin-top: 30px;
+    padding: 50px;
+
+}

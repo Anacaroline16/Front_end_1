@@ -19,8 +19,8 @@ body{
     /* align-items: center; */
     display: block;
     margin: auto;
-    margin-top: 35px;
-    border: 5px solid ;
+    margin-top: 35px ;
+    border: 5px solid rgb(71, 112, 71);
     /* border-radius: 100px; */
 }
 .menu{

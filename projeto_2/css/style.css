@@ -23,18 +23,17 @@ body{
     border: 5px solid rgb(71, 112, 71);
     /* border-radius: 100px; */
 }
+/*Menu dos sites*/
 .menu{
     background-color: rgb(71, 112, 71);
     padding: 0px;
     cursor: pointer ;
     list-style: none;
-    display: flex;
     
 
 }
 #organizar_menu{
     list-style: none;
-    margin-left: 75%;
     display: flex;
     font-size: 20px;
     gap: 10%;
@@ -46,9 +45,11 @@ body{
     text-decoration: none;
     color: white;
 }
-.logo img{
+#logo{
     padding: auto;
-    margin-right: 50%;
+    width: 150px;
+    /* height: 400px; */
+    margin: auto 50px;
 
 }
 /*Sobre os paragrafos e texto da pagina inicial (home)*/

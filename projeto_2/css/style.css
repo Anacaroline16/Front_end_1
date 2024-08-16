@@ -36,6 +36,7 @@ body{
     padding: 0px;
     cursor: pointer ;
     list-style: none;
+
     
 
 }
@@ -89,11 +90,13 @@ body{
     font-weight: bolder;
     font-size: 23px;
     text-decoration: none;
+    margin-bottom: 30px;
 }
 
 .tex_pg_inicial h3 a{
     text-decoration: none;
     color: rgb(71, 112, 71);
+ 
 }
 
 #abx_img{
@@ -101,10 +104,32 @@ body{
 
 }
 /*Rodape das paginas*/
-.footer{
+.social_footer{
     background-color:rgb(71, 112, 71); 
     margin-top: 30px;
     padding: 50px;
-    /* margin-left: 50px;; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 28px;
+}
+.social_footer a {
+    color: #2D1F28;
+    text-decoration: none;
+    margin: 10px;
+}
+.social_footer:hover a {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.social_footer:hover a:hover {
+        opacity: 1;
+        transition: 0.5s;
+}
+
+.abx_footer{
+    background-color:rgb(5, 9, 5);  
+    margin-bottom: 100px;
 
 }

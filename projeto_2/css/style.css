@@ -1,14 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     background-color:white;
     width: 100%;
     height: 100%;
-    /* max-width: 300px;
-    min-width: 400px;
-    max-height: 500px;
-    min-height: 600px; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
 }
 .div_olhinhos{
@@ -18,7 +18,8 @@ body{
     margin-top: 15px;
     font-size: 50px;
     text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Lato';
+    font-style: italic;
     
 }
 .div_olhinhos img{
@@ -31,12 +32,13 @@ body{
     /* border-radius: 100px; */
 }
 /*Menu dos sites*/
-.menu{
+nav{
     background-color: rgb(71, 112, 71);
     padding: 0px;
     cursor: pointer ;
     list-style: none;
-
+    width: 100%;
+    
     
 
 }
@@ -48,19 +50,25 @@ body{
     text-decoration: none;
     border: none;
     justify-content: space-between;
-   
+    align-items: center;
+
+
 }
 #div-links {
     min-width: 30vw;
     display: flex;
-    justify-content: space-between;
     gap: 5%;
     align-items: center;
     margin-right: 10%;
+    justify-content: flex-end;
+}
+#div-links a:hover {
+    color: rgb(26, 54, 14);
 }
 .botao1,.botao2, .botao3{
     text-decoration: none;
     color: white;
+    font-family: 'Poppins';
 
 }
 #logo{
@@ -68,6 +76,7 @@ body{
     width: 10%;
     /* height: 400px; */
     margin: auto 50px;
+ 
 
 }
 /*Sobre os paragrafos e texto da pagina inicial (home)*/
@@ -115,7 +124,7 @@ body{
     font-size: 28px;
 }
 .social_footer a {
-    color: #2D1F28;
+    color: rgb(8, 6, 7);
     text-decoration: none;
     margin: 10px;
 }
@@ -128,8 +137,8 @@ body{
         transition: 0.5s;
 }
 
-.abx_footer{
+.abx_footer p{
     background-color:rgb(5, 9, 5);  
     margin-bottom: 100px;
-
+    position: relative;
 }

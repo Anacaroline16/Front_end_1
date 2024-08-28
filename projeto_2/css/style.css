@@ -196,6 +196,7 @@ nav{
     height: 50%;
     object-fit: cover;
     border-radius: 3px;
+
 }
 /* Pagina Lavanda*/
 .lavanda h2{
@@ -222,27 +223,29 @@ nav{
     font-style: oblique;
     font-weight: bolder;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
 }
 .lavanda p{
     font-size: 18px;
     text-align: justify;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
+    margin-right: 30px;
 }
 .lavanda h4{
     font-size: 18px;
     font-style: oblique;
     font-weight: bolder;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
 }
 .lavanda li{
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', 'sans-serif';
     font-size: 18px;
     text-align: justify;
+    margin-right: 30px;
 }
 /* Oleo de pimenta preta */
 .pimenta h2{
@@ -269,28 +272,29 @@ nav{
     font-style: oblique;
     font-weight: bolder;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
 }
 .pimenta p{
     font-size: 18px;
     text-align: justify;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
+    margin-right: 30px;
 }
 .pimenta h4{
     font-size: 18px;
     font-style: oblique;
     font-weight: bolder;
-
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
 }
 .pimenta li{
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', 'sans-serif';
     font-size: 18px;
     text-align: justify;
+    margin-right: 30px;
 }
 
 /* oleo de melaleuca*/
@@ -318,27 +322,29 @@ nav{
     font-style: oblique;
     font-weight: bolder;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
 }
 .melaleuca  p{
     font-size: 18px;
     text-align: justify;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
+    margin-right: 30px;
 }
 .melaleuca  h4{
     font-size: 18px;
     font-style: oblique;
     font-weight: bolder;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
 }
 .melaleuca  li{
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', 'sans-serif';
     font-size: 18px;
     text-align: justify;
+    margin-right: 30px;
 }
 /* oleo de amendoas doces*/
 .amendoadoce h2{
@@ -366,27 +372,29 @@ nav{
     font-style: oblique;
     font-weight: bolder;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
 }
 .amendoadoce p{
     font-size: 18px;
     text-align: justify;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
+    margin-right: 30px;
 }
 .amendoadoce  h4{
     font-size: 18px;
     font-style: oblique;
     font-weight: bolder;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
 }
 .amendoadoce  li{
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', 'sans-serif';
     font-size: 18px;
     text-align: justify;
+    margin-right: 30px;
 }
 
 
@@ -416,27 +424,29 @@ nav{
     font-style: oblique;
     font-weight: bolder;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
 }
 .gergelim p{
     font-size: 18px;
     text-align: justify;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
+    margin-right: 30px;
 }
 .gergelim  h4{
     font-size: 18px;
     font-style: oblique;
     font-weight: bolder;
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
 }
 .gergelim  li{
-    margin-left: 20px;
+    margin-left: 30px;
     font-family: 'Lato', 'sans-serif';
     font-size: 18px;
     text-align: justify;
+    margin-right: 30px;
 }
 
 /* oleo de Jasmim*/
@@ -458,6 +468,7 @@ nav{
     margin-top: 35px;
     border: 5px solid rgb(71, 112, 71);
     border-radius: 50px;
+    
 
 }
 .jasmim h3{
@@ -488,4 +499,86 @@ nav{
     font-size: 18px;
     text-align: justify;
     margin-right: 30px;
+}
+
+/*Formulario*/
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(134, 203, 134);
+
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-color:rgb(76, 124, 76);
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+section h2{
+    color: white;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form label{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20x;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 20px;
+}
+form textarea{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+
+}
+form textarea:focus{
+    border-radius: 20px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid rgb(28, 48, 28);
+    color: white;
+    transition: all 1s;
+    margin-bottom: 20px;
+
+}
+form button:hover{
+    background-color:rgb(28, 48, 28) ;
+    color: black;
+    border-radius: 20px;
+}
+/*Pagina obrigado*/
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:rgb(28, 48, 28) ;
 }

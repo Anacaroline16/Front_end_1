@@ -2,7 +2,7 @@
    v2.0 | 20110126
    Licença: nenhuma (domínio público)
 */
-
+/* 
 html, corpo, div, span, applet, objeto, iframe,
 h1, h2, h3, h4, h5, h6, p, citação em bloco, pré,
 a, abr, sigla, endereço, grande, citar, código,
@@ -24,7 +24,7 @@ tempo, marca, áudio, vídeo {
 	vertical-align: linha de base;
 }
 /* Redefinição da função de exibição HTML5 para navegadores mais antigos */
-artigo, à parte, detalhes, figcaption, figura,
+/* artigo, à parte, detalhes, figcaption, figura,
 rodapé, cabeçalho, hgroup, menu, nav, seção {
 	exibir: bloco;
 }
@@ -45,4 +45,4 @@ q:antes, q:depois {
 mesa {
 	colapso de fronteira: colapso;
 	espaçamento de borda: 0;
-}
+} */ 

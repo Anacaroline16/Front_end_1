@@ -57,7 +57,7 @@ main{
 #home{ 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 5px 20px;
     width: 100%;
 }
@@ -156,6 +156,7 @@ main{
     justify-content: space-between;
     border-radius: 50px;
     height: auto;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 .projetos_2 img{
     width: 100%;
@@ -178,7 +179,6 @@ main{
     margin-top: 10px;
 }
 .sobrePai{
-    display: flex;
     flex-direction:row;
     flex-grow: 1;
     min-width: 250px;

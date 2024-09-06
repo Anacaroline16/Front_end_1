@@ -16,6 +16,10 @@ body{
     background-color: var(--cor-fundo);
 }
 
+main{
+    min-height: calc(100vh - 125px - 143px);
+}
+
 /*MENU*/
 .menu{
     background-color: var(--cor-menu-footer);
@@ -26,7 +30,6 @@ body{
     align-items: center;
     justify-content: center;
     border-bottom: 2px solid var(--cor-abx-footer);
-    
     
 }
 .organizar_menu li{
@@ -187,4 +190,37 @@ body{
     justify-content: space-between;
     border-radius: 50px;
     height: auto;
+}
+
+@media (max-width: 360px){
+    .menu{
+        height: 180px;
+    }
+    main{
+        min-height: calc(100vh - 125px - 205px);
+    }
+}
+
+@media (max-width: 450px){
+    .menu{
+        height: 115px;
+    }
+    main{
+        min-height: calc(100vh - 180px - 85px);
+    }
+    #abx_footer {
+        height: 66px;
+    }
+}
+
+@media (min-width: 451px){
+    .menu{
+        height: 115px;
+    }
+    main{
+        min-height: calc(100vh - 180px - 65px);
+    }
+    #abx_footer {
+        height: 46px;
+    }
 }

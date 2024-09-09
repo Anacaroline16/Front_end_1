@@ -88,6 +88,9 @@ main{
     
 }
 .img img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 30%;
     height: 30%;
     animation: float 5s ease-in-out infinite;

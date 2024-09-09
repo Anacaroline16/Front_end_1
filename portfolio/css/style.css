@@ -201,7 +201,7 @@ main{
 
 
 /*SOBRE*/
-.main{
+.main_sobre{
     flex: 1;
     padding: 20px;
     display: flex;
@@ -268,7 +268,7 @@ main{
     background-color: var(--cor-fundo);
 
 }
-section{
+.section_contato {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -278,23 +278,23 @@ section{
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-section h2{
+.section_contato h2{
     color: black;
     font-size: 1.5rem;
     margin: 2rem;
 }
-section form{
+form{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-form label{
+ form label{
     color: black;
     font-size: 17px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-form input{
+ form input{
     padding: 15px;
     outline: none;
     border: 0;
@@ -302,10 +302,10 @@ form input{
     font-size: 15px;
     transition: all 0.5s;
 }
-form input:focus{
+ form input:focus{
     border-radius: 20px;
 }
-form textarea{
+ form textarea{
     padding: 15px;
     outline: none;
     border: 0;
@@ -314,10 +314,10 @@ form textarea{
     transition: all 0.5s;
 
 }
-form textarea:focus{
+ form textarea:focus{
     border-radius: 20px;
 }
-form button{
+ form button{
     padding: 15px;
     cursor: pointer;
     font-size: 15px;
@@ -328,13 +328,13 @@ form button{
     margin-bottom: 20px;
 
 }
-form button:hover{
+ form button:hover{
     background-color:var(--cor-abx-footer) ;
     color: white;
     border-radius: 20px;
 }
 /*Pagina obrigado*/
-.main{
+.main_obrigado{
     display: flex;
     align-items: center;
     justify-content: center;
